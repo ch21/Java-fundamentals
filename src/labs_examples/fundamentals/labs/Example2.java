@@ -1,2 +1,9 @@
-package labs_examples.fundamentals.labs;public class Example2 {
+package labs_examples.fundamentals.labs;
+
+public class Example2 {
+
+    public static void main(String[] args){
+
+        System.out.println("hello");
+    }
 }
