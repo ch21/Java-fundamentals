@@ -7,7 +7,7 @@ package labs_examples.fundamentals.examples;
 */
 class BlockDemo {
     public static void main(String args[]) {
-        double i = 5, j = 10, d;
+        double i = 5, j = 10, d, a = 10, b = 15, c;
 
 //        i = 0; // will cause block to not execute
 //        j = 10;
@@ -19,6 +19,14 @@ class BlockDemo {
             System.out.println("i does not equal zero");
             d = j / i;
             System.out.println("j / i is " + d);
+        }
+
+        System.out.println("lets do it again :0");
+        if (a != 0){
+            System.out.println("a does not equal 0");
+            c = a/b;
+
+            System.out.println("a/b is " + c );
         }
     }
 }
