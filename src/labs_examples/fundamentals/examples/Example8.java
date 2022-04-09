@@ -24,6 +24,8 @@ class GalToLitTable {
                 System.out.println();
                 counter = 0; // reset the line counter
             }
+
+
         }
     }
 }
