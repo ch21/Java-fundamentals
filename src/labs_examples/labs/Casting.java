@@ -22,5 +22,10 @@ double h = 777.777;
 short I = (short) h;
 System.out.println(I);
         // now print out the short value - what happened to the decimals?
+
+        int x = 5;
+        int y = 2;
+        int result = x/y;
+        System.out.println(result);
     }
 }
