@@ -1,4 +1,4 @@
-package labs_examples.labs;
+package labs_examples.labs.two;
 
 import sun.lwawt.macosx.CSystemTray;
 
