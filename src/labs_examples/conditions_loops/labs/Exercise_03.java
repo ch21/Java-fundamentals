@@ -18,8 +18,8 @@ public class Exercise_03 {
 
         System.out.println("Choose a number 1-12: Each number represents a month 1 being january: ");
 
-        int pOutput = months.nextInt();
-        switch (pOutput) {
+        int monthNumber = months.nextInt();
+        switch (monthNumber) {
 
             case 1:
                 System.out.println("January");
