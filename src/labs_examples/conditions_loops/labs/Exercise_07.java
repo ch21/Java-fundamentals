@@ -14,7 +14,7 @@ package labs_examples.conditions_loops.labs;
  */
 import java.util.Scanner;
 public class Exercise_07 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner wordEntered = new Scanner(System.in);//had a hard time doing it in a while loop..
         String word = null;
         System.out.println("Enter a word: ");
@@ -24,9 +24,9 @@ public class Exercise_07 {
         word = word.toLowerCase();
 
         System.out.println("the vowels are: ");
-        for(int i = 0; i < word.length(); i++){
-            if(word.charAt(i)=='a'|| word.charAt(i)=='e'|| word.charAt(i)=='i'|| word.charAt(i)== 'o'
-                    || word.charAt(i)=='u'){
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' || word.charAt(i) == 'o'
+                    || word.charAt(i) == 'u') {
 
                 System.out.println(" " + word.charAt(i));
             }
@@ -34,7 +34,11 @@ public class Exercise_07 {
 
 
 
+    }
 
 
     }
-}
+
+
+
+
