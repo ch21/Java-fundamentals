@@ -15,13 +15,20 @@ package labs_examples.conditions_loops.labs;
 import java.util.Scanner;
 public class Exercise_07 {
     public static void main(String[] args) {
-        Scanner wordEntered = new Scanner(System.in);//had a hard time doing it in a while loop..
-        String word = null;
+
         System.out.println("Enter a word: ");
-
-        word = wordEntered.nextLine();
-
+        Scanner Scanner = new Scanner(System.in);
+        String word = Scanner.nextLine();
         word = word.toLowerCase();
+
+        /**
+         * Quick question if I had to ask the user a different question would
+         * I use a new scanner? and could i name it scanner 2
+         * for ex:
+         * Scanner Scanner2 = new Scanner(System.in);
+         * STring word2 = Scanner.next line();
+         * word2 = word2.toLowerCase();
+         */
 
         System.out.println("the vowels are: ");
         for (int i = 0; i < word.length(); i++) {
