@@ -10,9 +10,13 @@ package labs_examples.conditions_loops.labs;
 public class Exercise_06 {
      public static void main(String[] args) {
          int number = 1;
-        while (number<=100){
+         int numTwo = 0;
+        while (number<100){
             System.out.println("the number is: " + number);
+            numTwo =  numTwo + 1;
             number++;
+            System.out.println(number);
+
         }
     }
 }
