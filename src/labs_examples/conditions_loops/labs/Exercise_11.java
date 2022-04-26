@@ -21,6 +21,17 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
+
+import java.util.Scanner;
+
 public class Exercise_11 {
+    public static void main(String[] args) {
+        for (int m = 1; m < 10; ++m){
+            for(int i = 1; i < 10; ++i){
+                System.out.printf("%4d", m*i);
+            }
+            System.out.println();
+        }
+    }
 
 }
