@@ -10,7 +10,10 @@ public class methods {
                 isEven(4);
                 reverseStringMethod("Hello world");
         }
-        // please write a static multiply() method below that takes
+
+
+
+    // please write a static multiply() method below that takes
         // two parameters (argumets) and returns the result of
         // multiplying them together
         public static void multiply(int a, int b){
@@ -46,16 +49,21 @@ public class methods {
                       }
 
                 }
+    private static void reverseStringMethod(String hello_world) {
+        String name = hello_world;
 
-//    static void reverseStringMethod(String word) {
-//        word.reverse();
-//        // print reversed String
-//        System.out.println(word);
-//    }
-                // please write a method that will take in a String (as an argument)
-                // and return that String in reverse order. For instance, if you pass
-                // in the String "programming is cool" the method will return the
-                // String "looc si gnimmargorp"
-        }
+        String reversedString = new StringBuilder(name).reverse().toString();
+
+        System.out.println(reversedString);
+    }
+
+    }
+
+
+//                 please write a method that will take in a String (as an argument)
+//                 and return that String in reverse order. For instance, if you pass
+//                 in the String "programming is cool" the method will return the
+//                 String "looc si gnimmargorp"
+//        }
 
 
