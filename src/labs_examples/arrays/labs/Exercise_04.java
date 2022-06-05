@@ -10,4 +10,20 @@ package labs_examples.arrays.labs;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+        int[][] twoDimArray = new int[5][5];
+        for(int row =0; row <twoDimArray.length; row++){
+            for(int column = 0;column<twoDimArray[row].length; column++){
+                twoDimArray[row][column] = row * column;
+            }
+        }
+
+        for(int row =0; row< twoDimArray.length;row++){
+            for(int column = 0;column<twoDimArray[row].length;column++){
+                System.out.print(twoDimArray[row][column] +"\t");
+            }
+            System.out.println();
+        }
+    }
+
 }

@@ -18,6 +18,28 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
+
+//        int [][] twoDAraay = {
+//                {3,6,9,12,15},
+//                {18,21,24,27,30},
+//                {33,36,39,42,45},
+//                {48,51,54,57,60},
+//                {63,66,69,72,75}
+//        };
+        int [][] twoDAraay = new int[5][5];
+        int newVal = 3;
+
+        for(int row = 0;row < twoDAraay.length;row++){
+            for(int column = 0;column<twoDAraay[row].length;column++){
+
+                twoDAraay[row][column] = newVal;
+                newVal = newVal + 3;
+                 System.out.print(twoDAraay[row][column] );
+                 System.out.print(" ");
+
+            }
+            System.out.println();
+        }
         
     }
 }
